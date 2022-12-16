@@ -1,28 +1,5 @@
 /* 데스크 탑(PC) 스타일 */
 
-.h-top {
-    height: 36px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #111;
-    padding: 0 3%;
-}
-.jordan-logo span, .customer, .top-menu-title {
-    display: none;
-}
-.top-menu {
-    display: flex;
-}
-.top-menu li {
-    margin-left: 24px;
-    height: 36px;
-    line-height: 33px;
-}
-.top-menu li a {
-    color: #c4c4c4;
-    font-size: 0.75em;
-}
 /* index-wrap 영역 */
 .index-wrap {
     position: relative;
