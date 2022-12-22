@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>남성 탑 & 티셔츠</title>
+  <!-- cdn 방식으로 연결 -->
+  <!-- xeicon cdn(백터 그래픽 아이콘 툴킷) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+  <!-- lato 폰트 -->
+  <link rel="stylesheet" href="/css/Lato-font.css">
+  <!-- 스포카한산스 폰트 -->
+  <link rel="stylesheet" href="/css/SpoqaHanSans-kr.css">
+  <!-- favicon 설정 -->
+  <link rel="shortcut icon" href="/images/favicon.png">
+  <!-- swiper css cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.css">
+  <!-- 스타일 가이드 (공통 모듈 CSS) -->
+  <link rel="stylesheet" href="/css/styleGuide.css">
+  <!-- 인덱스 기본 스타일 -->
+  <link rel="stylesheet" href="/css/indexStyle.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <link rel="stylesheet" href="/css/product_menu.css">
+
+  <!-- LODASH CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js"
+    integrity="sha512-WFN04846sdKMIP5LKNphMaWzU7YpMyCU245etK3g/2ARYbPK9Ub18eG+ljU96qKRCWh+quCY7yefSmlkQw1ANQ=="
+    crossorigin="anonymous"></script>
+  <!-- GSAP CDN (javascript로 애니매이션 효과)-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"
+    integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ=="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollToPlugin.min.js"
+    integrity="sha512-agNfXmEo6F+qcj3WGryaRvl9X9wLMQORbTt5ACS9YVqzKDMzhRxY+xjgO45HCLm61OwHWR1Oblp4QSw/SGh9SA=="
+    crossorigin="anonymous"></script>
+
+  <!-- SCROLL MAGIC CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"
+    integrity="sha512-8E3KZoPoZCD+1dgfqhPbejQBnQfBXe8FuwL4z/c8sTrgeDMFEnoyTlH3obB4/fV+6Sg0a0XF+L/6xS4Xx1fUEg=="
+    crossorigin="anonymous"></script>
+
+  <script src="/js/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/js/swiper.min.js"></script>
+  <script src="/js/common.js" defer></script>
+  <script src="/js/product_menu.js" defer></script>
+</head>
+
+<body>
+  <!-- 메뉴 영역 시작 -->
+  <div class="menu-area">
+    <div class="h-top">
+      <div class="jordan-logo">
+        <a href="#">
+          <img src="/images/AIR-JORDAN-LOGO.svg" alt="에어조던로고">
+          <span>Jordan</span>
+        </a>
+      </div>
+      <div class="top-menu-area">
+        <h4 class="top-menu-title">나이키 멤버만을 위한 트별한 혜택을 알아보세요</h4>
+        <ul class="top-menu">
+          <li><a href="#">고객센터</a></li>
+          <li><a href="#">멤버가입</a></li>
+          <li><a href="#">로그인</a></li>
+        </ul>
+      </div>
+      <ul class="customer">
+        <li><a href="#"><img src="/images/shopping-bag.svg" alt="장바구니">장바구니</a></li>
+        <li><a href="#"><img src="/images/truck.svg" alt="주문배송">주문배송</a></li>
+        <li><a href="#"><img src="/images/help-circle.svg" alt="고객센터">고객센터</a></li>
+      </ul>
+    </div>
+  </div>
+  <!-- 메뉴 영역 종료 -->
+  <!-- 메인 영역 시작 -->
+  <div class="index-wrap">
+    <header>
+      <h1 class="logo">
+        <a href="index.html"><img src="/images/NIKE-LOGO.svg" alt="나이키로고"></a>
+      </h1>
+      <nav>
+        <ul class="main-menu">
+          <!-- 주메뉴1  New Releases-->
+          <li>
+            <a href="#">New Releases</a>
+            <ul class="sub-menu">
+              <li><a href="#">New/Featured</a></li>
+              <li><a href="#">New for Man</a></li>
+              <li><a href="#">New for Women</a></li>
+              <li><a href="#">New for Kids</a></li>
+            </ul>
+          </li>
+          <!-- 주메뉴2  Men-->
+          <li>
+            <a href="#">Men</a>
+            <ul class="sub-menu">
+              <li><a href="#">New/Featured</a></li>
+              <li><a href="#">신발</a></li>
+              <li><a href="#">의류</a></li>
+              <li><a href="#">스포츠</a></li>
+              <li><a href="#">브랜드</a></li>
+            </ul>
+          </li>
+          <!-- 주메뉴3  Woman-->
+          <li>
+            <a href="#">Woman</a>
+            <ul class="sub-menu">
+              <li><a href="#">New/Featured</a></li>
+              <li><a href="#">신발</a></li>
+              <li><a href="#">의류</a></li>
+              <li><a href="#">스포츠</a></li>
+              <li><a href="#">브랜드</a></li>
+              <li><a href="#">용품</a></li>
+            </ul>
+          </li>
+          <!-- 주메뉴4  Kids-->
+          <li>
+            <a href="#">Kids</a>
+            <ul class="sub-menu">
+              <li><a href="#">New/Featured</a></li>
+              <li><a href="#">신발</a></li>
+              <li><a href="#">의류</a></li>
+              <li><a href="#">스포츠</a></li>
+            </ul>
+          </li>
+          <!-- 주메뉴5  Sale-->
+          <li>
+            <a href="#">Sale</a>
+            <ul class="sub-menu">
+              <li><a href="#">New to Sale</a></li>
+              <li><a href="#">Mens Sale</a></li>
+              <li><a href="#">Womens Sale</a></li>
+              <li><a href="#">Kids Sale</a></li>
+            </ul>
+          </li>
+
+          <!-- 주메뉴6  MOVE TO ZERO -->
+          <li><a href="#">SNKRS</a></li>
+        </ul>
+      </nav>
+
+      <div class="icon-menu">
+        <ul>
+          <li class="search_box">
+            <a href="#">
+              <div class="search_con">
+                <img src="/images/search.svg" alt="찾기 아이콘">
+                <form action="#">
+                  <input type="text" name="search" id="search" placeholder="검색">
+                </form>
+              </div>
+            </a>
+          </li>
+          <li class="heart-btn"><a href="#"><img src="/images/heart.svg" alt="즐겨찾기 아이콘"></a></li>
+          <li><a href="#"><img src="/images/shopping-bag.svg" alt="장바구니 아이콘"></a></li>
+          <li class="menu-btn"><a href="#"><img src="/images/menu.svg" alt="메뉴 아이콘"></a></li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- 서브 메뉴 배경 -->
+    <div class="sub-bg"></div>
+
+    <!-- 메인 섹션 시작 -->
+    <section>
+      <div class="wrap">
+        <div class="header">
+          <div class="title">
+            <div class="sub_title"><span>의류</span> / <span>남성 탑& 티셔츠</span></div>
+            <div class="main_title">남성 탑 & 티셔츠 <span>(352)</span></div>
+          </div>
+          <div class="btn_con">
+            <div class="filter">
+              <span>필터 숨기기</span>
+              <i class='bx bx-slider'></i>
+            </div>
+            <div class="desc">
+              <span>정렬 기준 : <p></p></span>
+              <i class='bx bx-chevron-down'></i>
+              <div class="desc_list hidden">
+                <ul>
+                  <li><a href="#">추천순</a></li>
+                  <li><a href="#">최신순</a></li>
+                  <li><a href="#">높은 가격순</a></li>
+                  <li><a href="#">낮은 가격순</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="product_con">
+          <div class="category">
+            <div class="category_list">
+              <ul>
+                <li><a href="#">그래픽 티셔츠</a></li>
+                <li><a href="#">롱슬리브</a></li>
+                <li><a href="#">숏슬리브</a></li>
+                <li><a href="#">민소매 & 탱크탑</a></li>
+                <li><a href="#">폴로</a></li>
+                <li><a href="#">저지</a></li>
+              </ul>
+            </div>
+            <!-- 카테고리 성별 -->
+            <div class="category_con category_sex">
+              <div class="title">
+                <div class="text">성별<span></span></div>
+                <div class="btn"><i class='bx bx-chevron-down'></i></div>
+              </div>
+              <form action="#">
+                <label><input type="checkbox" name="man" id="man">남성</label>
+                <label><input type="checkbox" name="woman" id="woman">여성</label>
+                <label><input type="checkbox" name="unisex" id="unisex">유니섹스</label>
+              </form>
+            </div>
+
+            <!-- 카테고리 가격 -->
+            <div class="category_con category_price">
+              <div class="title">
+                <div class="text">가격대<span></span></div>
+                <div class="btn"><i class='bx bx-chevron-down'></i></div>
+              </div>
+              <form action="#">
+                <label><input type="checkbox" name="50000under" id="50000under">0 - 50,000원</label>
+                <label><input type="checkbox" name="100000under" id="100000under">50,000 - 100,000원</label>
+                <label><input type="checkbox" name="150000under" id="150000under">100,000 - 150,000원</label>
+              </form>
+            </div>
+            <!-- 카테고리 색 -->
+            <div class="category_con category_color">
+              <div class="title">
+                <div class="text">색상<span></span></div>
+                <div class="btn"><i class='bx bx-chevron-down'></i></div>
+              </div>
+              <form action="#">
+                <label><input type="checkbox" name="black" id="black">블랙</label>
+                <label><input type="checkbox" name="blue" id="blue">블루</label>
+                <label><input type="checkbox" name="brown" id="brown">브라운</label>
+                <label><input type="checkbox" name="grey" id="grey">그레이</label>
+                <label><input type="checkbox" name="red" id="red">레드</label>
+                <label><input type="checkbox" name="white" id="white">화이트</label>
+              </form>
+            </div>
+            <!-- 카테고리 브랜드 -->
+            <div class="category_con category_brand">
+              <div class="title">
+                <div class="text">브랜드<span></span></div>
+                <div class="btn"><i class='bx bx-chevron-down'></i></div>
+              </div>
+              <form action="#">
+                <label><input type="checkbox" name="nikeSport" id="nikeSport">나이키 스포츠웨어</label>
+                <label><input type="checkbox" name="NikeLab" id="NikeLab">NikeLab</label>
+                <label><input type="checkbox" name="ACG" id="ACG">ACG</label>
+              </form>
+            </div>
+            <!-- 카테고리 핏 -->
+            <div class="category_con category_fit">
+              <div class="title">
+                <div class="text">핏<span></span></div>
+                <div class="btn"><i class='bx bx-chevron-down'></i></div>
+              </div>
+              <form action="#">
+                <label><input type="checkbox" name="loose" id="loose">루즈</label>
+                <label><input type="checkbox" name="overSize" id="overSize">오버사이즈</label>
+                <label><input type="checkbox" name="nomal" id="nomal">표준</label>
+              </form>
+            </div>
+            <!-- 카테고리 스포츠 -->
+            <div class="category_con category_sport">
+              <div class="title">
+                <div class="text">스포츠<span></span></div>
+                <div class="btn"><i class='bx bx-chevron-down'></i></div>
+              </div>
+              <form action="#">
+                <label><input type="checkbox" name="lifeStyle" id="lifeStyle">라이프스타일</label>
+                <label><input type="checkbox" name="training" id="training">트레이닝 및 짐</label>
+                <label><input type="checkbox" name="skate" id="skate">스케이트 보딩</label>
+              </form>
+            </div>
+
+          </div>
+          <!-- 카테고리 끝 -->
+          <!-- 제품영역 시작 -->
+          <div class="product_list">
+            <div class="product_item item1">
+              <div class="item_img">
+                <img src="/images/CT1101_1.png" alt="AB2001">
+              </div>
+              <div class="TextBox">
+                <div class="productName">
+                  나이키 솔로 스우스
+                </div>
+                <div class="productSubName">
+                  남성 쿼터집 탑
+                </div>
+                <div class="price">
+                  119,000원
+                </div>
+              </div>
+            </div>
+
+            <div class="product_item item2">
+              <div class="item_img">
+                <img src="/images/CT1102_1.png" alt="AB2001">
+              </div>
+              <div class="TextBox">
+                <div class="productName">
+                  대한민국
+                </div>
+                <div class="productSubName">
+                  남성 하프집 후디
+                </div>
+                <div class="price">
+                  159,000원
+                </div>
+              </div>
+            </div>
+
+            <div class="product_item item3">
+              <div class="item_img">
+                <img src="/images/CT1103_1.png" alt="AB2001">
+              </div>
+              <div class="TextBox">
+                <div class="productName">
+                  조던 23 엔지니어드
+                </div>
+                <div class="productSubName">
+                  남성 플리스 풀오버 후디
+                </div>
+                <div class="price">
+                  105,000원
+                </div>
+              </div>
+            </div>
+            
+            <div class="product_item item4">
+              <div class="item_img">
+                <img src="/images/CT1104_1.png" alt="AB2001">
+              </div>
+              <div class="TextBox">
+                <div class="productName">
+                  나이키 스포츠웨어 에센셜+
+                </div>
+                <div class="productSubName">
+                  남성 프렌치 테리 크루
+                </div>
+                <div class="price">
+                  69,000원
+                </div>
+              </div>
+            </div>
+            
+            <div class="product_item item2">
+              <div class="item_img">
+                <img src="/images/CT1105_1.png" alt="AB2001">
+              </div>
+              <div class="TextBox">
+                <div class="productName">
+                  나이키 ACG 드라이핏 UV 데버스테이션 트레일
+                </div>
+                <div class="productSubName">
+                  남성 탑
+                </div>
+                <div class="price">
+                  159,000원
+                </div>
+              </div>
+            </div>
+
+            <div class="product_item item2">
+              <div class="item_img">
+                <img src="/images/CT1102_1.png" alt="AB2001">
+              </div>
+              <div class="TextBox">
+                <div class="productName">
+                  대한민국
+                </div>
+                <div class="productSubName">
+                  남성 하프집 후디
+                </div>
+                <div class="price">
+                  159,000원
+                </div>
+              </div>
+            </div>
+
+            <div class="product_item item2">
+              <div class="item_img">
+                <img src="/images/CT1102_1.png" alt="AB2001">
+              </div>
+              <div class="TextBox">
+                <div class="productName">
+                  대한민국
+                </div>
+                <div class="productSubName">
+                  남성 하프집 후디
+                </div>
+                <div class="price">
+                  159,000원
+                </div>
+              </div>
+            </div>
+
+            <div class="product_item item2">
+              <div class="item_img">
+                <img src="/images/CT1102_1.png" alt="AB2001">
+              </div>
+              <div class="TextBox">
+                <div class="productName">
+                  대한민국
+                </div>
+                <div class="productSubName">
+                  남성 하프집 후디
+                </div>
+                <div class="price">
+                  159,000원
+                </div>
+              </div>
+            </div>
+
+            <div class="product_item item2">
+              <div class="item_img">
+                <img src="/images/CT1102_1.png" alt="AB2001">
+              </div>
+              <div class="TextBox">
+                <div class="productName">
+                  대한민국
+                </div>
+                <div class="productSubName">
+                  남성 하프집 후디
+                </div>
+                <div class="price">
+                  159,000원
+                </div>
+              </div>
+            </div>
+
+            <div class="product_item item2">
+              <div class="item_img">
+                <img src="/images/CT1102_1.png" alt="AB2001">
+              </div>
+              <div class="TextBox">
+                <div class="productName">
+                  대한민국
+                </div>
+                <div class="productSubName">
+                  남성 하프집 후디
+                </div>
+                <div class="price">
+                  159,000원
+                </div>
+              </div>
+            </div>
+
+            <div class="product_item item2">
+              <div class="item_img">
+                <img src="/images/CT1102_1.png" alt="AB2001">
+              </div>
+              <div class="TextBox">
+                <div class="productName">
+                  대한민국
+                </div>
+                <div class="productSubName">
+                  남성 하프집 후디
+                </div>
+                <div class="price">
+                  159,000원
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 메인 섹션 종료 -->
+  </div>
+  <!-- 메인 영역 종료 -->
+
+  <footer>
+    <div class="f-top">
+      <ul class="f-menu">
+        <li><a href="#">매장안내</a></li>
+        <li><a href="#">나이키 트레이닝 가이드</a></li>
+        <li><a href="#">로그인</a></li>
+        <li><a href="#">멤버가입</a></li>
+      </ul>
+      <ul class="f-menu">
+        <li><a href="#">고객센터</a></li>
+        <ul class="f-sub">
+          <li><a href="#">080-022-0182</a></li>
+          <li><a href="#">주문결제</a></li>
+          <li><a href="#">배송</a></li>
+          <li><a href="#">주문배송조회</a></li>
+          <li><a href="#">멤버쉽 혜택/서비스</a></li>
+          <li><a href="#">1:1 채팅 문의</a></li>
+          <li><a href="#">1:1 이메일 문의</a></li>
+          <li><a href="#">이용약관</a></li>
+          <li><a href="#">개인정보처리방침</a></li>
+        </ul>
+      </ul>
+      <ul class="f-menu">
+        <li><a href="#">ABOUT NIKE</a></li>
+        <ul class="f-sub">
+          <li><a href="#">나이키에 대하여</a></li>
+        </ul>
+      </ul>
+      <ul class="f-menu social">
+        <li><a href="#">SOCIAL</a></li>
+        <ul class="f-sub">
+          <!-- 백터 그래픽 아이콘 사용 -->
+          <li><a href="#"><i class="xi-twitter"></i></a></li>
+          <li><a href="#"><i class="xi-facebook"></i></a></li>
+          <li><a href="#"><i class="xi-youtube"></i></a></li>
+          <li><a href="#"><i class="xi-instagram"></i></a></li>
+        </ul>
+      </ul>
+    </div>
+
+    <div class="f-line">
+
+    </div>
+
+    <div class="f-bottom">
+      <ul>
+        <li><a href="#">이용약관</a></li>
+        <li><a href="#">개인정보처리방침</a></li>
+      </ul>
+      <div class="f-info">
+        <!-- pc는 wide해서 옆으로 넘겨도 괜찮지만 모바일이나 다른 기기들은 그렇지 못하다 -->
+        <p>(유)나이키코리아 대표 KIM MYUNG HEE<br>
+          서울 강남구 테헤란로 152 강남파이낸스센터 31층<br>
+          통신판매업신고번호 2011-서울강남-03461<br>
+          등록번호 220-88-09068 사업자정보확인<br>
+          고객센터 전화문의 080-022-0128<br>
+          FAX 02-6744-5880 E-mail service@nike.co.kr<br>
+          호스팅서비스사업자 브리즈
+        </p>
+        <div class="inipay">
+          <p>안전거래를 위해 현금 등으로 결제시 저희 쇼핑몰에서 가입한<br>
+            KG 이니시스의 구매안전 서비스(채무지급보증)를 이용하실 수 있습니다.
+          </p>
+          <p>온라인디지털콘텐츠사업발전법에 의한
+            <a href="#">콘텐츠보호안내 자세히보기</a>
+            <img src="/images/inipay.png" alt="inipay">
+          </p>
+        </div>
+      </div>
+      <p><i class="xi-maker"></i>대한민국 &copy; 2021 Nike, Inc. All Rights Reserved</p>
+    </div>
+  </footer>
+</body>
+
+</html>
