@@ -66,3 +66,27 @@ search_input.addEventListener("focus",()=>{
 search_input.addEventListener("focusout",()=>{
     search_box.classList.remove("target")
 })
+
+
+// 윈도우 스크롤 이벤트
+let main_menu=document.querySelector('.index-wrap header')
+
+
+window.addEventListener('scroll',_.throttle(()=>{
+    if(window.scrollY<100){
+        main_menu.classList.remove('fixed')
+    } 
+}),500)
+window.addEventListener('wheel', (e) => {
+    if (e.deltaY > 0) {
+        main_menu.classList.remove('fixed')
+    } else {
+        if(window.scrollY<100){
+            main_menu.classList.remove('fixed')
+        }else{
+            main_menu.classList.add('fixed')
+        }
+        
+    }
+})
+
